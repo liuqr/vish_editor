@@ -4,31 +4,34 @@ VISH.Editor.Wikimedia = (function(V,$,undefined){
 		console.log(lala);
 	};
 
-	var searchOnWikimedia = function(text, nimages, fmult){
+	var search = function(options){
 
-	var imageSearch;
-	if(nimages < 10){
-		imageSearch = 10;
-	}else{
-		imageSearch = nimages;
-	}
+		var query = options["query"]
+		if(typeof options["nimages"] == "undefined"){
+			nimages = 20;
+		} else {
+			nimages = options["nimages"];
+		}
+		var fmult = 2;
+		var resourcesLimit = Math.max(10,nimages*fmult);
+
 
 	$.getJSON("http://commons.wikimedia.org/w/api.php?callback=?",{
 
-		'action' : 'query',
-		'format': 'json',
-		'list' : 'search',
-		'srsearch' : text,
-		'srnamespace' : 6,
-		'prop': 'url'
+		// 'action' : 'query',
+		// 'format': 'json',
+		// 'list' : 'search',
+		// 'srsearch' : text,
+		// 'srnamespace' : 6,
+		// 'prop': 'url'
 
 
- 		/* 'action' : 'query',
+ 		'action' : 'query',
 		'format': 'json',
 		'list' : 'allimages',
-		'ailimit' : fmult*imageSearch,
-		'aifrom' : text,
-		'aiprop': 'url'*/
+		'ailimit' : resourcesLimit,
+		'aifrom' : query,
+		'aiprop': 'url'
       },
       function(data) {
       	console.log("data: ");
@@ -72,7 +75,7 @@ VISH.Editor.Wikimedia = (function(V,$,undefined){
 
 return {
 	init: init,
-	searchOnWikimedia : searchOnWikimedia
+	search : search
 };
 
 }) (VISH, jQuery);
