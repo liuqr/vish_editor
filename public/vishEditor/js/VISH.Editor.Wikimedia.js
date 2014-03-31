@@ -74,8 +74,12 @@ VISH.Editor.Wikimedia = (function(V,$,undefined){
 
 
 return {
-	init: init,
-	search : search
+	init 		: init,
+	search 		: search
+	// searchImages : searchImages,
+	// searchVideos : searchVideos,
+	// searchAudios : searchAudios,
+	// searchMultimedia : searchMultimedia
 };
 
 }) (VISH, jQuery);
