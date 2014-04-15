@@ -101,6 +101,7 @@ VISH.Editor = (function(V,$,undefined){
 		V.Audio.init();
 		V.Editor.LRE.init(options.lang);
 		V.Editor.Settings.init(); //Settings must be initialize before V.Editor.Renderer.init(presentation);
+		V.SCORM.init();
 
 		//If we have to edit
 		if(initialPresentation){
@@ -661,6 +662,8 @@ VISH.Editor = (function(V,$,undefined){
 					if(zoom!=1){
 						element.zoomInStyle = V.Utils.getZoomInStyle(zoom);
 					}
+					//Save subtype
+					element.subtype = V.Object.getObjectInfo(myObject).type;
 				} else if (element.type === V.Constant.QUIZ) {
 					var quizJSON = VISH.Editor.Quiz.save(div);
 					element.quiztype = quizJSON.quizType;
@@ -689,7 +692,7 @@ VISH.Editor = (function(V,$,undefined){
 						element.scrollTop = $(snapshotWrapper).scrollTop();
 						element.scrollLeft = $(snapshotWrapper).scrollLeft();
 					}
-					
+					element.subtype = V.Constant.MEDIA.WEB;
 				} else if(typeof element.type == "undefined"){
 					//Empty element
 				}
