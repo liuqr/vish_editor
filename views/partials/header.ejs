@@ -1,7 +1,9 @@
 <div class= "row span12 center" id="topbar">
   <% if(everyauth.user){%>
     <div class= "row span12 offset9" id="topBarLoggedAs">
-      <p class="loggedAs">Logged as <span class="username"><%=everyauth.user.name%></span>
+      <p class="loggedAs">
+      <!--Logged as-->
+      <span class="username"><%=everyauth.user.name%></span>
       &nbsp;
       <a class="logout" href="/logout"> <span class="logout">退出</span> </a></p>
     </div>

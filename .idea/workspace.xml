@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ed6fb29-eecf-461f-85d2-a507e6864e17" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/aboutus.ejs" afterPath="$PROJECT_DIR$/views/partials/aboutus.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/footer.ejs" afterPath="$PROJECT_DIR$/views/partials/footer.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/header.ejs" afterPath="$PROJECT_DIR$/views/partials/header.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/help.ejs" afterPath="$PROJECT_DIR$/views/partials/help.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/home.ejs" afterPath="$PROJECT_DIR$/views/partials/home.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/index.ejs" afterPath="$PROJECT_DIR$/views/partials/index.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/sign_in.ejs" afterPath="$PROJECT_DIR$/views/partials/sign_in.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vish_editor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,7 +37,7 @@
       <file leaf-file-name="header.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/partials/header.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="63" selection-start="297" selection-end="297" vertical-scroll-proportion="0.1978022" vertical-offset="0" max-vertical-offset="864">
+            <state line="4" column="22" selection-start="179" selection-end="179" vertical-scroll-proportion="0.15824176" vertical-offset="0" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -586,7 +579,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/header.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="63" selection-start="297" selection-end="297" vertical-scroll-proportion="0.1978022" vertical-offset="0" max-vertical-offset="864">
+        <state line="4" column="22" selection-start="179" selection-end="179" vertical-scroll-proportion="0.15824176" vertical-offset="0" max-vertical-offset="900">
           <folding />
         </state>
       </provider>
