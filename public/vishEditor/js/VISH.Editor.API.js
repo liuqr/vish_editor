@@ -433,8 +433,6 @@ VISH.Editor.API = (function(V,$,undefined){
 	};
 
 	var uploadTmpJSON = function(json, responseFormat, successCallback, failCallback){
-
-	    print "======================================"
 		responseFormat = (typeof responseFormat=="string") ? responseFormat : "json"
 
 		if(V.Utils.getOptions().configuration.mode==V.Constant.NOSERVER){
