@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3ed6fb29-eecf-461f-85d2-a507e6864e17" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/header.ejs" afterPath="$PROJECT_DIR$/views/partials/header.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vish_editor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,16 +38,7 @@
       <file leaf-file-name="header.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/partials/header.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="22" selection-start="179" selection-end="179" vertical-scroll-proportion="0.15824176" vertical-offset="0" max-vertical-offset="900">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sign_in.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/partials/sign_in.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="123" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
+            <state line="19" column="113" selection-start="927" selection-end="927" vertical-scroll-proportion="0.71398747" vertical-offset="0" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -55,7 +47,7 @@
       <file leaf-file-name="help.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/partials/help.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="9" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
+            <state line="7" column="9" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="234">
               <folding />
             </state>
           </provider>
@@ -73,7 +65,7 @@
       <file leaf-file-name="examples.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/partials/examples.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="18" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+            <state line="4" column="18" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="576">
               <folding />
             </state>
           </provider>
@@ -82,7 +74,7 @@
       <file leaf-file-name="features.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/partials/features.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="18" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1188">
+            <state line="4" column="18" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="1188">
               <folding />
             </state>
           </provider>
@@ -91,7 +83,7 @@
       <file leaf-file-name="home.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/partials/home.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="44" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+            <state line="7" column="44" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="774">
               <folding />
             </state>
           </provider>
@@ -180,6 +172,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -294,15 +287,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="tests" factoryName="py.test">
@@ -474,44 +466,32 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/everyauth/node_modules/restler/node_modules/xml2js/node_modules/sax/LICENSE-W3C.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="33" selection-start="9268" selection-end="9268" vertical-scroll-proportion="-9.444445" vertical-offset="2301" max-vertical-offset="3492">
-          <folding />
-        </state>
+        <state line="142" column="33" selection-start="9268" selection-end="9268" vertical-scroll-proportion="-9.444445" vertical-offset="2301" max-vertical-offset="3492" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/vishEditor/js/doc/files/VISH.js.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="26" selection-start="3269" selection-end="3269" vertical-scroll-proportion="4.364486" vertical-offset="22" max-vertical-offset="2286">
-          <folding />
-        </state>
+        <state line="105" column="26" selection-start="3269" selection-end="3269" vertical-scroll-proportion="4.364486" vertical-offset="22" max-vertical-offset="2286" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/sign_up.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="290" selection-end="290" vertical-scroll-proportion="0.24434389" vertical-offset="0" max-vertical-offset="504">
-          <folding />
-        </state>
+        <state line="6" column="12" selection-start="290" selection-end="290" vertical-scroll-proportion="0.24434389" vertical-offset="0" max-vertical-offset="504" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/vishEditor/js/doc/modules/ViSH.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="6" selection-start="3164" selection-end="3164" vertical-scroll-proportion="-71.333336" vertical-offset="0" max-vertical-offset="2790">
-          <folding />
-        </state>
+        <state line="107" column="6" selection-start="3164" selection-end="3164" vertical-scroll-proportion="-71.333336" vertical-offset="0" max-vertical-offset="2790" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/footer.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="9" selection-start="158" selection-end="158" vertical-scroll-proportion="0.07912088" vertical-offset="0" max-vertical-offset="455">
-          <folding />
-        </state>
+        <state line="2" column="9" selection-start="158" selection-end="158" vertical-scroll-proportion="0.07912088" vertical-offset="0" max-vertical-offset="455" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/vishEditor/examples/production/edit_production.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2024" column="5" selection-start="112964" selection-end="112968" vertical-scroll-proportion="-0.7037037" vertical-offset="36413" max-vertical-offset="37368">
-          <folding />
-        </state>
+        <state line="2024" column="5" selection-start="112964" selection-end="112968" vertical-scroll-proportion="-0.7037037" vertical-offset="36413" max-vertical-offset="37368" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/index.ejs">
@@ -524,20 +504,6 @@
     <entry file="file://$PROJECT_DIR$/views/partials/help.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="9" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="581" column="1" selection-start="7673" selection-end="7673" vertical-scroll-proportion="0.0" vertical-offset="10307" max-vertical-offset="15120">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/sign_in.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="123" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
           <folding />
         </state>
       </provider>
@@ -577,9 +543,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="581" column="1" selection-start="7673" selection-end="7673" vertical-scroll-proportion="0.0" vertical-offset="10307" max-vertical-offset="15120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/sign_in.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="74" selection-start="377" selection-end="377" vertical-scroll-proportion="0.15031315" vertical-offset="0" max-vertical-offset="479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/header.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="179" selection-end="179" vertical-scroll-proportion="0.15824176" vertical-offset="0" max-vertical-offset="900">
+        <state line="19" column="113" selection-start="927" selection-end="927" vertical-scroll-proportion="0.71398747" vertical-offset="0" max-vertical-offset="900">
           <folding />
         </state>
       </provider>
