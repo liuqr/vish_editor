@@ -640,7 +640,7 @@
 			<div class='fancy_tabs' id='thumcontent_tabs'>
 				<ul>
 					<li>
-						<a href="#" onclick="VISH.Editor.Utils.loadTab('tab_slides'); return false;" id="tab_slides" class="fancy_tab tabbable" i18n-key="i.Slides">Slides</a>
+						<a href="#" onclick="VISH.Editor.Utils.loadTab('tab_slides'); return false;" id="tab_slides" class="fancy_tab tabbable" i18n-key="i.Slides">幻灯片</a>
 					</li>
 					<li>
 						<a href="#" onclick="VISH.Editor.Utils.loadTab('tab_pdfex'); return false;" id="tab_pdfex" class="fancy_tab">PDF</a>
@@ -658,7 +658,7 @@
 				<img title="Help" i18n-key-tooltip="i.tooltip.Help" class='help_in_fancybox' id='tab_slides_help' src='/vishEditor/images/vicons/helptutorial_circle_blank.png'/>
 				<div class="tab_slides_content">
 					<div class="tab_slides_templates">
-						<p class="select_text" i18n-key="i.Templates">Templates</p>
+						<p class="select_text" i18n-key="i.Templates">模板</p>
 						<div class="templateselectlist">
 							<div class='slidethumb templatethumb' template='1'>
 								<img src='/vishEditor/images/templatesthumbs/t1.png' />
@@ -808,7 +808,7 @@
 			<div class='fancy_tabs' id='quiz_fancybox_tabs'>
 				<ul>
 					<li>
-						<a href="#" id="tab_quizzes" class="fancy_tab">Quiz</a>
+						<a href="#" id="tab_quizzes" class="fancy_tab">测验</a>
 					</li>
 				</ul>
 				<img title="Help" i18n-key-tooltip="i.tooltip.Help" id='tab_quizzes_help' class='help_in_fancybox' src='/vishEditor/images/vicons/helptutorial_circle_blank.png'/>
@@ -817,11 +817,11 @@
 			<div id='tab_quizzes_content' class="fancy_tab_content">
 				<div class='quizFancythumb'>
 					<img src='/vishEditor/images/templatesthumbs/tquiz2.png' onclick='VISH.Editor.Quiz.add("multiplechoice"); return false;'/>
-					<p><span i18n-key="i.walkQuiz_MC1">Multiple choice</span></p>
+					<p><span i18n-key="i.walkQuiz_MC1">多选题</span></p>
 				</div>
 				<div class='quizFancythumb'>
 					<img src='/vishEditor/images/templatesthumbs/tquiz3.png' onclick='VISH.Editor.Quiz.add("truefalse"); return false;'/>
-					<p><span i18n-key="i.walkQuiz_TF1">True / False</span></p>
+					<p><span i18n-key="i.walkQuiz_TF1">真 / 假</span></p>
 				</div>
 			</div>
 		</div>
@@ -937,7 +937,7 @@
 			<div id='tab_pic_from_url_content' class="fancy_tab_content">
 				<div class="box1 box1fancy1">
 					<div class="box1_section1">
-						<p i18n-key="i.addpicurl" class="textfancy">add image url</p>
+						<p i18n-key="i.addpicurl" class="textfancy">添加图片链接(url)</p>
 					</div>
 					<div class="box1_section2">
 						<img class="image_add_url" src="/vishEditor/images/icons/url_img.png"/>
@@ -956,7 +956,7 @@
 
 			<div id='tab_pic_upload_content' class="fancy_tab_content">
 				<div id="upload_file_inputbox" class="box1 box1fancy3">
-					<p class="textfancy" i18n-key="i.selectPicture">Select picture to upload</p></br>
+					<p class="textfancy" i18n-key="i.selectPicture">选择上传的图片</p></br>
 					<img class="image_add_url" src="/vishEditor/images/icons/url_upl.png"/>
 
 					<form class="documentsForm" action="documents.json" method="post" enctype="multipart/form-data">
@@ -1111,10 +1111,10 @@
 
 			<div class="fancy_tabs" id="object_fancy_tabs_id">	   
 				<ul>
-					<li><a href="#" onclick="VISH.Editor.Utils.loadTab('tab_object_from_web'); return false;" id="tab_object_from_web" class="fancy_tab">web</a></li>
-					<li><a href="#" onclick="VISH.Editor.Utils.loadTab('tab_object_snapshot'); return false;" id="tab_object_snapshot" class="fancy_tab">web snapshot</a></li>
-					<li><a href="#" onclick="VISH.Editor.Utils.loadTab('tab_object_from_url'); return false;" id="tab_object_from_url" class="fancy_tab">embed</a></li>
-					<li><a href="#" onclick="VISH.Editor.Utils.loadTab('tab_object_upload'); return false;" id="tab_object_upload" class="fancy_tab" i18n-key="i.upload">upload</a></li>
+					<li><a href="#" onclick="VISH.Editor.Utils.loadTab('tab_object_from_web'); return false;" id="tab_object_from_web" class="fancy_tab">网站</a></li>
+					<li><a href="#" onclick="VISH.Editor.Utils.loadTab('tab_object_snapshot'); return false;" id="tab_object_snapshot" class="fancy_tab">网站快照</a></li>
+					<li><a href="#" onclick="VISH.Editor.Utils.loadTab('tab_object_from_url'); return false;" id="tab_object_from_url" class="fancy_tab">嵌入</a></li>
+					<li><a href="#" onclick="VISH.Editor.Utils.loadTab('tab_object_upload'); return false;" id="tab_object_upload" class="fancy_tab" i18n-key="i.upload">上传</a></li>
 					<li><a href="#" onclick="VISH.Editor.Utils.loadTab('tab_object_repo'); return false;" id="tab_object_repo" class="fancy_tab">vish</a></li>
 					<li><a href="#" onclick="VISH.Editor.Utils.loadTab('tab_object_lre'); return false;" id="tab_object_lre" class="fancy_tab"><img src='/vishEditor/images/logos/lrelogo.gif'/></a></li>
 				</ul>
@@ -1130,7 +1130,7 @@
 			<div id='tab_object_from_url_content' class="fancy_tab_content">
 				<div class="box1 box1fancy1">
 					<div class="box1_section1">
-						<p class="textfancy" i18n-key="i.addembeddedobject">add embedded object</p>
+						<p class="textfancy" i18n-key="i.addembeddedobject">添加嵌入的对象</p>
 					</div>
 					<div class="box1_section2">
 						<img class="image_add_url" src="/vishEditor/images/icons/url_img.png"/>
@@ -1150,7 +1150,7 @@
 			<div id='tab_object_from_web_content' class="fancy_tab_content">
 				<div class="box1 box1fancy1">
 					<div class="box1_section1">
-						<p class="textfancy" i18n-key="i.embedwebsite">embed website</p>
+						<p class="textfancy" i18n-key="i.embedwebsite">添加网站</p>
 						</div>
 					<div class="box1_section2">
 						<img class="image_add_url" src="/vishEditor/images/icons/url_img.png"/>
@@ -1169,7 +1169,7 @@
 
 			<div id='tab_object_upload_content' class="fancy_tab_content">
 				<div class="box1 box1fancy3">
-					<p class="textfancy"><span i18n-key="i.selectObjectUpload">Select a file to upload</span>. <span i18n-key="i.selectObjectUpload2">Supported formats: SWF (flash), PDF</span>.</p><br>
+					<p class="textfancy"><span i18n-key="i.selectObjectUpload">选择上传文件</span>. <span i18n-key="i.selectObjectUpload2">支持格式: SWF (flash), PDF</span>.</p><br>
 					<img class="image_add_url" src="/vishEditor/images/icons/url_upl.png"/>
 					<form  id="object_file_input" class="documentsForm" action="documents.json" method="post" enctype="multipart/form-data">
 						<input type="file" name="document[file]" class="upload_file_input">
@@ -1218,7 +1218,7 @@
 			<div id='tab_object_snapshot_content' class="fancy_tab_content">
 				<div class="box1 box1fancy1">
 					<div class="box1_section1">
-						<p class="textfancy" i18n-key="i.embedWebSnapshot">embed Web Snapshot</p>
+						<p class="textfancy" i18n-key="i.embedWebSnapshot">添加网页快照</p>
 					</div>
 					<div class="box1_section2">
 						<img class="image_add_url" src="/vishEditor/images/icons/url_img.png"/>
@@ -1278,7 +1278,7 @@
 			<div id='tab_video_from_url_content' class="fancy_tab_content">
 				<div id="box1" class="box1 box1fancy1">
 					<div class="box1_section1">
-						<p class="textfancy"><span i18n-key="i.addvideourl">add video url (YouTube, HTML5)</span>.</p>
+						<p class="textfancy"><span i18n-key="i.addvideourl">添加视频链接(url) (YouTube, HTML5)</span>.</p>
 					</div>
 					<div class="box1_section2">
 						<img id="image_add_url" class="image_add_url" src="/vishEditor/images/icons/url_img.png"/>
@@ -1673,34 +1673,34 @@
 	<!-- Help in standard slide -->
 	<ol id="sslide_help" class="joyRideTipContent">
 		<li data-id="toolbar_wrapper" data-text="Close" i18n-key="i.Close" class="tut_template_editorfull tut_without_arrow" data-options="tipLocation:none">
-			<h2 i18n-key="i.walkSlide1_1">Adding content to a slide</h2>
-			<p><span i18n-key="i.walkSlide1_2">To add content to a slide, first click on any of the available editable areas of the slide. These areas have a dotted border and a text that says</span> "<i i18n-key="i.ZoneTooltip">点击添加内容</i>". <span i18n-key="i.walkSlide1_3">Once you have selected one of these areas, several icons will appear inside.</span> <span i18n-key="i.walkSlide1_4">Each of these icons allows you to add a different type of content.</span></p>
+			<h2 i18n-key="i.walkSlide1_1">添加内容到幻灯片</h2>
+			<p><span i18n-key="i.walkSlide1_2">在幻灯片中添加内容, 首先点击幻灯片中任何可编辑的区域. 在这个区域有一个虚线边框的文本提示到</span> "<i i18n-key="i.ZoneTooltip">点击添加内容</i>". <span i18n-key="i.walkSlide1_3">只要你选择区域的任何一个地方, 会出现几个图标.</span> <span i18n-key="i.walkSlide1_4">这些图标允许你添加不同的内容类型.</span></p>
 			
 			<table class="contentIconsWalkthrough">
 				<tr>
 					<td>
 						<img src="/vishEditor/images/zonethumbs/text.png"/>
-						<h1 i18n-key="i.Text">Text</h1>
+						<h1 i18n-key="i.Text">文本</h1>
 					</td>
 					<td>
 						<img src="/vishEditor/images/zonethumbs/video.png"/>
-						<h1 i18n-key="i.Videos">Videos</h1>
+						<h1 i18n-key="i.Videos">视频</h1>
 					</td>
 				</tr>
 				<tr>
 					<td>
 						<img src="/vishEditor/images/zonethumbs/image.png"/>
-						<h1 i18n-key="i.Images">Images</h1>
+						<h1 i18n-key="i.Images">图片</h1>
 					</td>
 					<td>
 						<img src="/vishEditor/images/zonethumbs/quiz.png"/>
-						<h1 i18n-key="i.Quizzes">Quizzes</h1>
+						<h1 i18n-key="i.Quizzes">测验</h1>
 					</td>
 				</tr>
 				<tr>
 					<td>
 						<img src="/vishEditor/images/zonethumbs/object.png"/>
-						<h1 i18n-key="i.Objects">Objects</h1>
+						<h1 i18n-key="i.Objects">对象</h1>
 					</td>
 					<td>
 						<!-- <img src="/vishEditor/images/zonethumbs/live.png"/>
@@ -1710,24 +1710,24 @@
 			</table>
 
 			<p class="tut_withlittlebottomspace">
-				<span i18n-key="i.walkSlide1_5">If you select the text icon, a text toolbar will appear on the top, allowing you to define among others the typeface, text style, alignment and size.</span>
+				<span i18n-key="i.walkSlide1_5">如果你选择文本的图标，文本工具栏将出现在顶部，允许你定义其他的字体，文本风格中，定位和尺寸.</span>
 			</p>
 			<img src="/vishEditor/images/tutorial/tut_textedimg.png"/>
 
 			<p>
-				<span i18n-key="i.walkSlide1_6">If you select the quizzes icon, a new screen will pop up for you to choose the type of quiz (multiple choice, true/false, ...) to add.</span>
+				<span i18n-key="i.walkSlide1_6">如果你选择测验图标，屏幕上会弹出供你选择的测试类型来增加（选择题，真/假，……）.</span>
 			</p>
 
 			<p>
-				<span i18n-key="i.walkSlide1_7">In any other case (images, videos, ...), a new screen will pop up for you to choose the content to add. You can add a resource via its URL, uploading a file or by searching in external content providers such as Flickr or YouTube.</span>
+				<span i18n-key="i.walkSlide1_7">选择其它选项（图像，视频，……），弹出让你选择添加内容。你可以添加资源通过URL，上传一个文件或通过外部内容提供商，如Flickr和YouTube搜索.</span>
 			</p>
 
 			<p>
-				<span i18n-key="i.walkSlide1_8">Once you have add content to an area, you can delete it by using the "deleting content" icon</span>: <img id="deletecontenttut" src="/vishEditor/images/icons/delete_content.png"/>
+				<span i18n-key="i.walkSlide1_8">如果你有了一个区域添加内容，你可以删除它，通过使用右下角的“删除内容”图标</span>: <img id="deletecontenttut" src="/vishEditor/images/icons/delete_content.png"/>
 			</p>
 
 			<p>
-				<span i18n-key="i.walkSlide1_9">Finally, if you want to remove the entire slide, you can do it using the "delete slide" icon</span>: <img id="deleteslidetut" src="/vishEditor/images/icons/ve_delete.png"/>
+				<span i18n-key="i.walkSlide1_9">最后，如果你想删除整个幻灯片，你可以使用右上角的“删除幻灯片”图标</span>: <img id="deleteslidetut" src="/vishEditor/images/icons/ve_delete.png"/>
 			</p>
 
 			<p class="tut_space">&nbsp;</p>
@@ -2010,47 +2010,47 @@
 	<ol id="images_fancy_tabs_id_help" class="joyRideTipContent">
 
 		<li data-id="thumbcontent" data-text="Next" i18n-key="i.Next" class="tut_add_resources_fancybox tut_width600_center tut_without_arrow" data-options="tipLocation:none">
-			<h2 i18n-key="i.walkImagesMain_1">Adding images</h2>
-			<p i18n-key="i.walkImagesMain_2">This screen allows you to add images to the slide. You can select the image to be added from different sources:</p>
+			<h2 i18n-key="i.walkImagesMain_1">添加图片</h2>
+			<p i18n-key="i.walkImagesMain_2">添加图片到幻灯片. 你可以从不同的来源选择图片:</p>
 
 			<table>
 				<tr>
-					<td><p i18n-key="i.Url">Url</p></td>
-					<td><p i18n-key="i.walkImagesMain_Url">add an image by pasting a url</p></td>
+					<td><p i18n-key="i.Url">Url(链接)</p></td>
+					<td><p i18n-key="i.walkImagesMain_Url">通过url链接添加图片</p></td>
 				</tr>
 				<tr>
-					<td><p i18n-key="i.Upload">Upload</p></td>
-					<td><p i18n-key="i.walkImagesMain_Upload">upload an own image from your computer</p></td>
+					<td><p i18n-key="i.Upload">上传</p></td>
+					<td><p i18n-key="i.walkImagesMain_Upload">上传本地图片</p></td>
 				</tr>
 				<tr>
 					<td><p>ViSH</p></td>
-					<td><p i18n-key="i.walkImagesMain_ViSH">search images on the ViSH repository</p></td>
+					<td><p i18n-key="i.walkImagesMain_ViSH">从ViSH库中搜索图片</p></td>
 				</tr>
 				<tr>
 					<td><p>Flickr</p></td>
-					<td><p i18n-key="i.walkImagesMain_Flickr">search images on Flickr</p></td>
+					<td><p i18n-key="i.walkImagesMain_Flickr">从Flickr中搜索图片</p></td>
 				</tr>
 				<tr>
 					<td><p>LRE</p></td>
-					<td><p i18n-key="i.walkImagesMain_LRE">search images on the LRE repository</p></td>
+					<td><p i18n-key="i.walkImagesMain_LRE">从LRE库中搜索图片</p></td>
 				</tr>
 			</table>
 
-			<p i18n-key="i.walkImagesUrl1_1">Now you are in the url tab, click on "Next" to continue.</p>
+			<p i18n-key="i.walkImagesUrl1_1">现在你在URL”选项卡上，单击“下一步”继续.</p>
 			<p class="tut_space">&nbsp;</p>
 		</li>
 
 		<li data-id="picture_url" data-text="Next" i18n-key="i.Next" class="tut_width500 tut_with_arrow">
-			<h2 i18n-key="i.walkImagesUrl2_1">Adding images by url</h2>
-			<p i18n-key="i.walkImagesUrl2_2">If you want to add an image through its url, you should type or paste the url of the image in this input, for example:</p>
+			<h2 i18n-key="i.walkImagesUrl2_1">通过URL添加图像</h2>
+			<p i18n-key="i.walkImagesUrl2_2">如果你想通过URL添加一个图像，你需要在输入框中输入或粘贴图像的URL，例如:</p>
 			<h6>http://www.example.com/example.jpg</h6>
-			<p i18n-key="i.walkImagesUrl2_3">Almost every image format (jpg, png, gif, tiff, bmp, ...) is supported.</p>
+			<p i18n-key="i.walkImagesUrl2_3">几乎所有图像格式（JPG，PNG，GIF，BMP，TIFF，……）都支持.</p>
 			<p class="tut_space">&nbsp;</p>
 		</li>
 
 		<li data-id="picture_url_previewButton" data-text="Close" i18n-key="i.Close" data-options="tipLocation:bottom" class="tut_preview tut_width500 tut_with_arrow">
-			<h2 i18n-key="i.walkImagesUrl3_1">Preview the image before add it</h2>
-			<p i18n-key="i.walkImagesUrl3_2">After type or paste the url of the desired image you should click on this "Preview" button. After that, a preview of the image will be shown and a new button "Add Content" will appear. To finish and add the image to the slide, you should click on the "Add Content" button.</p>
+			<h2 i18n-key="i.walkImagesUrl3_1">添加之前预览图片</h2>
+			<p i18n-key="i.walkImagesUrl3_2">输入或粘贴图片的url之后，点击"预览"按钮. 之后, 图片显示出现"添加内容"按钮. 点击“添加内容”按钮，将图片添加到幻灯片.</p>
 		</li>
 	</ol>
 
@@ -2224,33 +2224,33 @@
 	<!-- Help inserting objects [URL, Upload, Repository, Snapshot] -->
 	<ol id="object_fancy_tabs_main_help" class="joyRideTipContent">
 		<li data-id="thumbcontent" data-text="Close" i18n-key="i.Close" class="tut_add_resources_fancybox tut_width700_center tut_without_arrow" data-options="tipLocation:none">
-			<h2 i18n-key="i.walkObjectsMain_1">Adding objects</h2>
-			<p i18n-key="i.walkObjectsMain_2">This screen allows you to add different types of objects to the slides. You can select an object to be added from different sources:</p>
+			<h2 i18n-key="i.walkObjectsMain_1">添加对象</h2>
+			<p i18n-key="i.walkObjectsMain_2">允许在幻灯片中添加不同类型的对象. 你可以从不同的来源选择对象:</p>
 
 			<table>
 				<tr>
-					<td><p>Web</p></td>
-					<td><p i18n-key="i.walkObjectsMain_Web">add a web by pasting its url</p></td>
+					<td><p>网站</p></td>
+					<td><p i18n-key="i.walkObjectsMain_Web">通过url链接添加网站</p></td>
 				</tr>
 				<tr>
-					<td><p>Web Snapshot</p></td>
-					<td><p i18n-key="i.walkObjectsMain_WebSnapshot">a "web snapshot" is a fragment of a website. This fragment will appear without scrollbars and allows you to insert a specific area or zone of a website instead of the full page</p></td>
+					<td><p>网站快照</p></td>
+					<td><p i18n-key="i.walkObjectsMain_WebSnapshot">网页快照”是网站的一个片段. 这个片段没有滚动条，允许你插入网页上的网站上的一个特定区域或地带</p></td>
 				</tr>
 				<tr>
-					<td><p>Embed</p></td>
-					<td><p i18n-key="i.walkObjectsMain_Embed">add an embedded object. You can type or paste either the HTML code of the object or its url</p></td>
+					<td><p>嵌入</p></td>
+					<td><p i18n-key="i.walkObjectsMain_Embed">添加一个嵌入式对象. 你可以输入或者粘贴HTML代码或者url链接</p></td>
 				</tr>
 				<tr>
-					<td><p i18n-key="i.Upload">Upload</p></td>
-					<td><p i18n-key="i.walkObjectsMain_Upload">upload your own PDF or SWF (flash) file from your computer</p></td>
+					<td><p i18n-key="i.Upload">上传</p></td>
+					<td><p i18n-key="i.walkObjectsMain_Upload">本地上传您的PDF或SWF（Flash）文件</p></td>
 				</tr>
 				<tr>
 					<td><p>ViSH</p></td>
-					<td><p i18n-key="i.walkObjectsMain_ViSH">search objects on the ViSH repository</p></td>
+					<td><p i18n-key="i.walkObjectsMain_ViSH">从ViSH库搜索对象</p></td>
 				</tr>
 				<tr>
 					<td><p>LRE</p></td>
-					<td><p i18n-key="i.walkObjectsMain_LRE">search objects on the LRE repository</p></td>
+					<td><p i18n-key="i.walkObjectsMain_LRE">从LRE库搜索对象</p></td>
 				</tr>
 			</table>
 
@@ -2264,25 +2264,25 @@
 
 		<li data-id="thumbcontent" data-text="Close" i18n-key="i.Close" class="tut_add_resources_fancybox tut_width700_center tut_without_arrow" data-options="tipLocation:none">
 			<h2 i18n-key="i.walkVideosMain_1">Adding videos</h2>
-			<p i18n-key="i.walkVideosMain_2">The multimedia resources screen allows you to add videos to the slides. You can select a video to be added from different sources:</p>
+			<p i18n-key="i.walkVideosMain_2">多媒体资源的屏幕允许您向幻灯片添加视频。你可以从不同的来源选择视频:</p>
 			<table>
 				<tr>
 					<td><p i18n-key="i.Url">Url</p></td>
-					<td><p i18n-key="i.walkVideosMain_Url">add a video by pasting a url. Only HTML5 and YouTube videos are allowed</p></td>
+					<td><p i18n-key="i.walkVideosMain_Url">通过URL添加视频。只有HTML5和YouTube视频是允许的</p></td>
 				</tr>
 				<tr>
 					<td><p>ViSH</p></td>
-					<td><p i18n-key="i.walkVideosMain_ViSH">search HTML5 videos on the ViSH repository</p></td>
+					<td><p i18n-key="i.walkVideosMain_ViSH">从ViSH库搜索视频</p></td>
 				</tr>
 				<tr>
 					<td><p>YouTube</p></td>
-					<td><p i18n-key="i.walkVideosMain_YouTube">search videos on YouTube</p></td>
+					<td><p i18n-key="i.walkVideosMain_YouTube">在YouTube上搜索视频</p></td>
 				</tr>
 				<tr>
-					<td><p i18n-key="i.Upload">Upload</p></td>
+					<td><p i18n-key="i.Upload">上传</p></td>
 					<td>
 						<p>
-							<span i18n-key="i.walkVideosMain_Upload" class="tut_tutlink" onClick="VISH.Tour.startTourWithId('video_fancy_tabs_upload_help', 'top');">Click here to learn how to upload videos</span>
+							<span i18n-key="i.walkVideosMain_Upload" class="tut_tutlink" onClick="VISH.Tour.startTourWithId('video_fancy_tabs_upload_help', 'top');">点击这里了解如何上传视频</span>
 						</p>
 					</td>
 				</tr>
@@ -2318,19 +2318,19 @@
 	<!-- Help inserting Quizzes -->
 	<ol id="quiz_help" class="joyRideTipContent">
 		<li data-id="thumbcontent" data-text="Close" i18n-key="i.Close" class="tut_add_resources_fancybox tut_width600_center tut_without_arrow" data-options="tipLocation:none">
-		<h2 i18n-key="i.walkQuiz_1">Adding Quizzes</h2>
-		<p><span i18n-key="i.walkQuiz_2">You can add different type of quizzes to your presentation. The current available quizzes are showed below</span>:</p>
+		<h2 i18n-key="i.walkQuiz_1">添加测验</h2>
+		<p><span i18n-key="i.walkQuiz_2">在课件中你可以添加不同类型的测验. 下面为当前可用的测验。</span>:</p>
 			<table class="tut_table_imagewithsubtitle">
 				<tr>
-					<td><img src="/vishEditor/images/templatesthumbs/tquiz2.png"/><p i18n-key="i.walkQuiz_MC1">Multiple choice</p></td>
-					<td><p i18n-key="i.walkQuiz_MC2">Multiple choice quizzes are a form of assessment in which respondents are asked to select the best possible answer (or answers) out of the choices from a list.</p></td>
+					<td><img src="/vishEditor/images/templatesthumbs/tquiz2.png"/><p i18n-key="i.walkQuiz_MC1">多选题</p></td>
+					<td><p i18n-key="i.walkQuiz_MC2">多选题测试是评价的一种形式，从列表中选出最佳的答案.</p></td>
 				</tr>
 				<tr>
-					<td><img src="/vishEditor/images/templatesthumbs/tquiz3.png"/><p i18n-key="i.walkQuiz_TF1">True / False</p></td>
-					<td><p i18n-key="i.walkQuiz_TF2">A true/false quiz is a a form of assessment in which respondents are asked to select, for each statement, if it is true or false.</p></td>
+					<td><img src="/vishEditor/images/templatesthumbs/tquiz3.png"/><p i18n-key="i.walkQuiz_TF1">真 / 假</p></td>
+					<td><p i18n-key="i.walkQuiz_TF2">真/假测试是评价的一种形式, 对于每一个问题，选出是真还是假.</p></td>
 				</tr>
 			</table>
-			<p i18n-key="i.walkQuiz_3">In addition to the content, you also can define the correct answers of the quiz, allowing this way self-assessment and the auto tracking of students progress in Learning Management Systems like Moodle.</p>
+			<p i18n-key="i.walkQuiz_3">除了内容, 你还可以定义测验的正确答案, 通过这种自我评价的方式自动追踪学生在学习管理系统中的进度像Moodle管理系统一样.</p>
 			<p class="tut_space">&nbsp;</p>
 		</li>
 	</ol>

@@ -4,7 +4,10 @@
     <list default="true" id="3ed6fb29-eecf-461f-85d2-a507e6864e17" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/show_big.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/visheditor.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.ejs" afterPath="$PROJECT_DIR$/views/layout.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vishEditor/images/toolbar/menu_button.png" afterPath="$PROJECT_DIR$/public/vishEditor/images/toolbar/menu_button.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vishEditor/edit.html" afterPath="$PROJECT_DIR$/public/vishEditor/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/home.ejs" afterPath="$PROJECT_DIR$/views/partials/home.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vishEditor/js/lang/translations.js" afterPath="$PROJECT_DIR$/public/vishEditor/js/lang/translations.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vish_editor.iws" />
@@ -28,19 +31,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="VISH.Editor.Tools.Menu.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/vishEditor/js/VISH.Editor.Tools.Menu.js">
+      <file leaf-file-name="vishViewer.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/vishEditor/examples/contents/scorm/javascripts/vishViewer.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="349" column="26" selection-start="9162" selection-end="9162" vertical-scroll-proportion="0.0" vertical-offset="5958" max-vertical-offset="7578">
+            <state line="85" column="59" selection-start="52865" selection-end="52865" vertical-scroll-proportion="0.0" vertical-offset="1382" max-vertical-offset="18558">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VISH.Editor.Presentation.File.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/vishEditor/js/VISH.Editor.Presentation.File.js">
+      <file leaf-file-name="translations.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/vishEditor/js/lang/translations.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="34" selection-start="1861" selection-end="1874" vertical-scroll-proportion="0.0" vertical-offset="1018" max-vertical-offset="1746">
+            <state line="95" column="47" selection-start="11331" selection-end="11349" vertical-scroll-proportion="-2.3888888" vertical-offset="1581" max-vertical-offset="29124">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit_production.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/vishEditor/examples/production/edit_production.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1690" column="46" selection-start="95024" selection-end="95037" vertical-scroll-proportion="-5.111111" vertical-offset="30282" max-vertical-offset="37368">
               <folding />
             </state>
           </provider>
@@ -49,26 +61,112 @@
       <file leaf-file-name="VISH.Editor.API.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/vishEditor/js/VISH.Editor.API.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="434" column="0" selection-start="11362" selection-end="11362" vertical-scroll-proportion="0.0" vertical-offset="7653" max-vertical-offset="9090">
+            <state line="408" column="51" selection-start="10805" selection-end="10809" vertical-scroll-proportion="0.0" vertical-offset="7259" max-vertical-offset="9090">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.ejs" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/layout.ejs">
+      <file leaf-file-name="configuration.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/vishEditor/configuration/configuration.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="11" selection-start="73" selection-end="73" vertical-scroll-proportion="0.11273486" vertical-offset="0" max-vertical-offset="720">
+            <state line="50" column="48" selection-start="1395" selection-end="1408" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="2970">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VISH.Editor.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/vishEditor/js/VISH.Editor.js">
+      <file leaf-file-name="VISH.Editor.EVideo.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/vishEditor/js/VISH.Editor.EVideo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="519" column="8" selection-start="14184" selection-end="14184" vertical-scroll-proportion="0.0" vertical-offset="9183" max-vertical-offset="18324">
+            <state line="208" column="53" selection-start="7171" selection-end="7171" vertical-scroll-proportion="0.0" vertical-offset="3596" max-vertical-offset="23742">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VISH.Editor.Flashcard.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/vishEditor/js/VISH.Editor.Flashcard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="53" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6336">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VISH.Editor.Object.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/vishEditor/js/VISH.Editor.Object.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="25" selection-start="2975" selection-end="2975" vertical-scroll-proportion="0.0" vertical-offset="1202" max-vertical-offset="10116">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/vishEditor/edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2329" column="66" selection-start="135291" selection-end="135291" vertical-scroll-proportion="0.049723756" vertical-offset="41904" max-vertical-offset="43236">
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#4;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#6;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#7;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#8;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#9;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#10;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#11;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#12;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#13;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#2;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#3;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#4;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#2;n#div#2;n#div#0;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#1;n#div#2;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#15;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#16;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,22 +189,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/vishEditor/examples/production/edit_production.html" />
         <option value="$PROJECT_DIR$/public/vishEditor/examples/contents/scorm/javascripts/vishViewer.min.js" />
-        <option value="$PROJECT_DIR$/public/vishEditor/js/lang/translations.js" />
         <option value="$PROJECT_DIR$/views/partials/footer.ejs" />
         <option value="$PROJECT_DIR$/views/partials/help.ejs" />
         <option value="$PROJECT_DIR$/views/partials/aboutus.ejs" />
         <option value="$PROJECT_DIR$/views/partials/sign_in.ejs" />
-        <option value="$PROJECT_DIR$/views/partials/home.ejs" />
         <option value="$PROJECT_DIR$/views/partials/header.ejs" />
         <option value="$PROJECT_DIR$/views/partials/index.ejs" />
-        <option value="$PROJECT_DIR$/public/vishEditor/edit.html" />
         <option value="$PROJECT_DIR$/public/stylesheets/bootstrap.css" />
         <option value="$PROJECT_DIR$/views/partials/vishEditorEdit.ejs" />
         <option value="$PROJECT_DIR$/views/partials/vishEditorNew.ejs" />
         <option value="$PROJECT_DIR$/public/vishEditor/js/VISH.Editor.Tools.Menu.js" />
         <option value="$PROJECT_DIR$/views/layout.ejs" />
+        <option value="$PROJECT_DIR$/views/partials/home.ejs" />
+        <option value="$PROJECT_DIR$/public/vishEditor/js/lang/translations.js" />
+        <option value="$PROJECT_DIR$/public/vishEditor/examples/production/edit_production.html" />
+        <option value="$PROJECT_DIR$/public/vishEditor/edit.html" />
       </list>
     </option>
   </component>
@@ -171,86 +269,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vish_editor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vish_editor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vishEditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vish_editor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vish_editor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vishEditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vish_editor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vish_editor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vishEditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vish_editor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vish_editor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -407,9 +425,9 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32760897" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17857143" sideWeight="0.67107004" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18650794" sideWeight="0.672391" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -435,83 +453,23 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/presentation/new.ejs">
+    <entry file="file://$PROJECT_DIR$/views/partials/home.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="12" selection-start="86" selection-end="86" vertical-scroll-proportion="0.15031315" vertical-offset="0" max-vertical-offset="479" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/presentation/edit.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="16" selection-start="335" selection-end="350" vertical-scroll-proportion="0.41336116" vertical-offset="0" max-vertical-offset="522" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vishEditor/js/libs/ckeditor/plugins/about/dialogs/about.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="149" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vishEditor/js/libs/ckeditor/plugins/smiley/dialogs/smiley.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="3281" selection-end="3281" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vishEditor/js/libs/ckeditor/plugins/uicolor/dialogs/uicolor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="826" selection-start="972" selection-end="972" vertical-scroll-proportion="0.19313304" vertical-offset="0" max-vertical-offset="466" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/home.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.32142857" vertical-offset="0" max-vertical-offset="728">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/vishEditorEdit.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="68" selection-start="134" selection-end="134" vertical-scroll-proportion="0.025174825" vertical-offset="0" max-vertical-offset="715">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vishEditor/examples/contents/scorm/javascripts/vishViewer.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="762" column="40" selection-start="407745" selection-end="407745" vertical-scroll-proportion="0.34265736" vertical-offset="13471" max-vertical-offset="18558">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vishEditor/js/VISH.Video.Youtube.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="11" selection-start="4941" selection-end="4941" vertical-scroll-proportion="0.11608391" vertical-offset="2671" max-vertical-offset="6984">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vishEditor/js/VISH.Editor.VirtualTour.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="46" selection-start="327" selection-end="327" vertical-scroll-proportion="0.21678321" vertical-offset="133" max-vertical-offset="12366">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/vishEditorNew.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="66" selection-start="132" selection-end="132" vertical-scroll-proportion="0.025174825" vertical-offset="0" max-vertical-offset="715">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vishEditor/js/VISH.Editor.Tools.Menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="349" column="26" selection-start="9162" selection-end="9162" vertical-scroll-proportion="0.0" vertical-offset="5958" max-vertical-offset="7578">
+        <state line="17" column="56" selection-start="767" selection-end="767" vertical-scroll-proportion="0.4764957" vertical-offset="83" max-vertical-offset="774">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/vishEditor/js/VISH.Editor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="519" column="8" selection-start="14184" selection-end="14184" vertical-scroll-proportion="0.0" vertical-offset="9183" max-vertical-offset="18324">
+        <state line="519" column="24" selection-start="14184" selection-end="14200" vertical-scroll-proportion="0.0" vertical-offset="9248" max-vertical-offset="18324">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vishEditor/js/VISH.Editor.Tools.Menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="343" column="43" selection-start="8997" selection-end="9005" vertical-scroll-proportion="0.0" vertical-offset="6048" max-vertical-offset="7578">
           <folding />
         </state>
       </provider>
@@ -523,17 +481,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/vishEditor/js/VISH.Editor.API.js">
+    <entry file="file://$PROJECT_DIR$/models/all.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="434" column="0" selection-start="11362" selection-end="11362" vertical-scroll-proportion="0.0" vertical-offset="7653" max-vertical-offset="9090">
+        <state line="2" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="0.078774616" vertical-offset="0" max-vertical-offset="792">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.ejs">
+    <entry file="file://$PROJECT_DIR$/public/vishEditor/js/VISH.Editor.Image.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="11" selection-start="73" selection-end="73" vertical-scroll-proportion="0.11273486" vertical-offset="0" max-vertical-offset="720">
+        <state line="71" column="25" selection-start="2802" selection-end="2812" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="5202">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vishEditor/js/VISH.Editor.API.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="408" column="51" selection-start="10805" selection-end="10809" vertical-scroll-proportion="0.0" vertical-offset="7259" max-vertical-offset="9090">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vishEditor/configuration/configuration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="48" selection-start="1395" selection-end="1408" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="2970">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vishEditor/examples/contents/scorm/javascripts/vishViewer.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="59" selection-start="52865" selection-end="52865" vertical-scroll-proportion="0.0" vertical-offset="1382" max-vertical-offset="18558">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vishEditor/js/VISH.Editor.EVideo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="208" column="53" selection-start="7171" selection-end="7171" vertical-scroll-proportion="0.0" vertical-offset="3596" max-vertical-offset="23742">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vishEditor/js/VISH.Editor.Flashcard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="53" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6336">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vishEditor/js/lang/translations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="47" selection-start="11331" selection-end="11349" vertical-scroll-proportion="-2.3888888" vertical-offset="1581" max-vertical-offset="29124">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vishEditor/js/libs/jquery.joyride-1.0.5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="100" selection-start="2410" selection-end="2410" vertical-scroll-proportion="0.33182845" vertical-offset="753" max-vertical-offset="7452">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vishEditor/examples/production/edit_production.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1690" column="46" selection-start="95024" selection-end="95037" vertical-scroll-proportion="-5.111111" vertical-offset="30282" max-vertical-offset="37368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vishEditor/js/VISH.Editor.Object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="25" selection-start="2975" selection-end="2975" vertical-scroll-proportion="0.0" vertical-offset="1202" max-vertical-offset="10116">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vishEditor/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2329" column="66" selection-start="135291" selection-end="135291" vertical-scroll-proportion="0.049723756" vertical-offset="41904" max-vertical-offset="43236">
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#4;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#6;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#7;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#8;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#9;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#10;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#11;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#12;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#13;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#3;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#4;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#2;n#div#2;n#div#0;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#2;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#15;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#16;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
