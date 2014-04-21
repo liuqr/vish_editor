@@ -574,7 +574,7 @@ input.slider_range_input {
 }
 
 .help_in_settings {
-	background-image:url(/vishEditor/images/vicons/helptutorial_circle.png);
+	/*background-image:url(/vishEditor/images/vicons/helptutorial_circle.png);*/
 	position: absolute;
 	right: 1px;
 	height: 29px;
@@ -582,7 +582,7 @@ input.slider_range_input {
 }
 
 .help_in_settings:hover {
-	background-image:url(/vishEditor/images/vicons/helptutorial_circle_hover_tp.png);
+	/*background-image:url(/vishEditor/images/vicons/helptutorial_circle_hover_tp.png);*/
 	cursor: pointer;
 }
 
@@ -1969,7 +1969,7 @@ div.object_wrapper {
 }
 
 .help_in_slide {
-	background-image:url(/vishEditor/images/vicons/helptutorial_circle.png);
+	/*background-image:url(/vishEditor/images/vicons/helptutorial_circle.png);*/
 	position: absolute;
 	top: 2px;
 	right: 24px;
@@ -1981,12 +1981,12 @@ div.object_wrapper {
 }
 
 .help_in_slide:hover {
-	background-image:url(/vishEditor/images/vicons/helptutorial_circle_hover.png);
+	/*background-image:url(/vishEditor/images/vicons/helptutorial_circle_hover.png);*/
 	cursor: pointer;
 }
 
 .help_in_fancybox {
-	background-image:url(/vishEditor/images/vicons/helptutorial_circle.png);
+	/*background-image:url(/vishEditor/images/vicons/helptutorial_circle.png);*/
 	position: absolute;
 	margin-top: -1px;
 	margin-right: -5px;
@@ -1995,7 +1995,7 @@ div.object_wrapper {
 }
 
 .help_in_fancybox:hover {
-	background-image:url(/vishEditor/images/vicons/helptutorial_circle_hover.png);
+	/*background-image:url(/vishEditor/images/vicons/helptutorial_circle_hover.png);*/
 	cursor: pointer;
 }
 
@@ -2003,7 +2003,7 @@ div.object_wrapper {
 /* Themes fancybox */
 
 #theme_fancybox {
-	background: url(/vishEditor/images/icons/themebg.png) no-repeat;
+	/*background: url(/vishEditor/images/icons/themebg.png) no-repeat;*/
 	width: 530px;
 	height: 300px;
 	padding-left: 35px;
@@ -2019,14 +2019,14 @@ div.object_wrapper {
 }
 
 #help_themes_selection:hover {
-	background-image:url(/vishEditor/images/vicons/helptutorial_circle_hover_tp.png);
+	/*background-image:url(/vishEditor/images/vicons/helptutorial_circle_hover_tp.png);*/
 	cursor: pointer;
 }
 
 /* Animation fancybox */
 
 #animation_fancybox {
-	background: url(/vishEditor/images/icons/animationbg.png) no-repeat;
+	/*background: url(/vishEditor/images/icons/animationbg.png) no-repeat;*/
 	width: 530px;
 	height: 300px;
 	padding-left: 35px;
@@ -2042,7 +2042,7 @@ div.object_wrapper {
 }
 
 #help_animation_selection:hover {
-	background-image:url(/vishEditor/images/vicons/helptutorial_circle_hover_tp.png);
+	/*background-image:url(/vishEditor/images/vicons/helptutorial_circle_hover_tp.png);*/
 	cursor: pointer;
 }
 
