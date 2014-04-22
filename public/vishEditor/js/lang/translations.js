@@ -602,7 +602,7 @@ var i18n =
 				"i.invalidvalue"			: "invalid value",
 				"i.ItemAndBall"				: "This item is linked to the #{letter} slide of the Enriched Video.",
 				"i.limitReached"			: "limit reached",
-				"i.MandatoryFieldsNotification"	: "在发布课件之前，你学要填写课件的标题并且选择头像",
+				"i.MandatoryFieldsNotification"	: "在发布课件之前，你先要填写课件的标题并且选择头像",
 				"i.medium"					: "medium",
 				"i.no"						: "取消",
 				"i.No"						: "No",
